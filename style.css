@@ -1,0 +1,33 @@
+body {
+    background-color: #eee;
+}
+
+.profile_cards {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.pics {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
